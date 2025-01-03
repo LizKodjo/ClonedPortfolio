@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    Homepage
+{% endblock head %}
+
+{% block title %}
+    <h1 class="lead banner-heading">main heading</h1>
+{% endblock title %}
+
+{% block body %}
+
+    <div class="main body">
+        <form action="/" method="post">
+            <label for="fname">First name*</label>
+            <input name="fname" id="fname" />
+            <label for="lname">First name*</label>
+            <input name="lname" id="lname"/>
+        </form>
+            
+    </div>     
+
+    
+{% endblock body %}
