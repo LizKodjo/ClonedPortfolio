@@ -3,9 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    .fluid-container {
+        overflow: hidden;
+    }
 }
 
-.main-banner{
+.main-banner {
     display: flex;
     height: 100vh;
     background-color: pink;
@@ -14,5 +18,9 @@ body {
     flex-direction: column;
 
     // max-width: 100%;
-    
+
+}
+
+html {
+    scroll-behavior: smooth;
 }

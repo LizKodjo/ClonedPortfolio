@@ -10,6 +10,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+body .fluid-container {
+  overflow: hidden;
+}
 
 .main-banner {
   display: flex;
@@ -18,6 +21,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=styles.css.map */
