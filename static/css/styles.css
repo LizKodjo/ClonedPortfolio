@@ -5,6 +5,11 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+@media (min-width: 1px) {
+  .contact {
+    flex-direction: column;
+  }
+}
 body {
   margin: 0;
   padding: 0;
